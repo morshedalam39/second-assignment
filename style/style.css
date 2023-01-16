@@ -56,7 +56,7 @@ nav h2 {
 }
 
 .header-section-two h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .header-title {
@@ -222,7 +222,7 @@ nav h2 {
     padding: 35px 35px;
 }
 
-
+/* transition & transform start */
 
 .icons {
     background: linear-gradient(#201202 0 0) var(--f, 0) / var(--f, 0) no-repeat;
@@ -242,9 +242,11 @@ nav h2 {
     transform: rotate(360deg);
 }
 
+/* transition & transform End */
 
 /* third-section  end*/
-/* extra section start */
+/*------------- extra section start------------------ */
+/* Four-section  start */
 .feature{
     display: flex;
     justify-content: space-evenly;
@@ -276,12 +278,11 @@ nav h2 {
     margin-top: 20px;
     text-decoration: none;
 }
-
-/* extra section End */
+/* Four-section  End */
+/*------------------ extra section End -----------------*/
 
 /* five section strat */
 
-        /* fifth page sponsor img */
         .sponsor {
             display: flex;
             justify-content: space-between;
@@ -290,7 +291,7 @@ nav h2 {
             margin-bottom: 100px;
         }
 
-        /* page number sixth */
+        
         .five-sub {
             text-align: center;
             margin-top: 50px;
@@ -302,20 +303,20 @@ nav h2 {
 
 /* five section end */
 /* main section end */
-
+/* footer start */
 .footer {
     background-color: #FFF4E7;
     height: 70px;
-   
+    width: 830px;
     text-align: center;
     margin-bottom: 200px;
     color: #424242;
     margin-left: 20%;
-    padding-top: 11px;
+    padding-top: 20px;
 }
+/* footer end */
 
-
-/* responsive media  */
+/* responsive media */
 
 @media screen and (max-width: 576px) {
     .navs {
@@ -324,8 +325,6 @@ nav h2 {
         align-items: center;
         margin-left: 10px;
         margin-right: 10px;
-
-
     }
 
     nav h2 {
